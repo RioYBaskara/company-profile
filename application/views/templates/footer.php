@@ -21,6 +21,42 @@
             prevScrollpos = currentScrollPos;
         }
         //]]> </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var tabLinks = document.querySelectorAll('.carousel-tabs button');
+            var carousel = document.querySelector('#carouselExampleCaptions');
+            var carouselInstance = bootstrap.Carousel.getInstance(carousel);
+
+            // Function to update the active tab
+            function updateActiveTab(index) {
+                tabLinks.forEach((btn, i) => {
+                    if (i === index) {
+                        btn.classList.add('active');
+                    } else {
+                        btn.classList.remove('active');
+                    }
+                });
+            }
+
+            // Add click event to tab buttons
+            tabLinks.forEach(function (link) {
+                link.addEventListener('click', function () {
+                    var index = Array.from(tabLinks).indexOf(this);
+                    carouselInstance.to(index);
+                });
+            });
+
+            // Update tab active class when carousel slides
+            carousel.addEventListener('slid.bs.carousel', function (event) {
+                var index = event.to;
+                updateActiveTab(index);
+            });
+
+            // Set the initial active tab
+            updateActiveTab(0);
+        });
+
+    </script>
 </body>
 
 </html>
