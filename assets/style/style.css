@@ -325,3 +325,131 @@ nav .kontak i {
 		left: 0;
 	}
 }
+
+/* NAVBAR HERO KELAR */
+
+/* MULAI KONTEN */
+.konten {
+	padding-top: 28px;
+	padding-bottom: 28px;
+}
+
+.konten h1 {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 58px;
+	color: #000;
+}
+
+.konten p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	width: 500px;
+	margin-top: 8px;
+	color: #666666;
+}
+
+.title-konten {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.isi-konten1 {
+	height: 350px;
+}
+
+.isi-konten2 {
+	height: 350px;
+}
+
+.isi-konten1-teks {
+	padding: 20px;
+}
+
+.isi-konten h5 {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 34px;
+	color: #000;
+}
+
+.isi-konten p {
+	padding-top: 4px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+}
+
+/* Default styles for larger screens */
+.isi-konten1,
+.isi-konten2 {
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.isi-konten1 img,
+.isi-konten2 img {
+	max-width: 50%; /* Ensure images don't overflow */
+	height: auto;
+}
+
+.isi-konten1-teks,
+.isi-konten2-teks {
+	padding: 20px;
+	max-width: 50%;
+}
+
+/* Responsive styles for medium screens */
+@media (max-width: 992px) {
+	.isi-konten1,
+	.isi-konten2 {
+		flex-direction: column; /* Stack content vertically */
+		text-align: center; /* Center-align text for better readability */
+	}
+
+	.isi-konten1 img,
+	.isi-konten2 img {
+		max-width: 80%; /* Make images full width */
+	}
+
+	.isi-konten1-teks,
+	.isi-konten2-teks {
+		max-width: 80%; /* Make text full width */
+	}
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+	.konten h1 {
+		font-size: 36px;
+		line-height: 46px;
+	}
+
+	.konten p {
+		font-size: 14px;
+		line-height: 24px;
+		width: auto; /* Remove fixed width */
+	}
+
+	.isi-konten1,
+	.isi-konten2 {
+		height: auto; /* Adjust height to content */
+	}
+
+	.isi-konten2 {
+		flex-direction: column; /* Stack content vertically */
+	}
+
+	.isi-konten2-teks {
+		order: 2; /* Ensure text is below the image */
+	}
+
+	.isi-konten2 img {
+		order: 1; /* Ensure image is above the text */
+		max-width: 80%; /* Make images full width */
+	}
+}

@@ -193,21 +193,3 @@
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
 </div>
-
-
-<h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem magnam veniam ex ipsa labore maxime itaque odit
-    distinctio, natus cumque quo perferendis, mollitia vero sit suscipit quia reiciendis ipsam deserunt.
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem magnam veniam ex ipsa labore maxime itaque odit
-    distinctio, natus cumque quo perferendis, mollitia vero sit suscipit quia reiciendis ipsam deserunt.
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem magnam veniam ex ipsa labore maxime itaque odit
-    distinctio, natus cumque quo perferendis, mollitia vero sit suscipit quia reiciendis ipsam deserunt.
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem magnam veniam ex ipsa labore maxime itaque odit
-    distinctio, natus cumque quo perferendis, mollitia vero sit suscipit quia reiciendis ipsam deserunt.
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem magnam veniam ex ipsa labore maxime itaque odit
-    distinctio, natus cumque quo perferendis, mollitia vero sit suscipit quia reiciendis ipsam deserunt.
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem magnam veniam ex ipsa labore maxime itaque odit
-    distinctio, natus cumque quo perferendis, mollitia vero sit suscipit quia reiciendis ipsam deserunt.
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem magnam veniam ex ipsa labore maxime itaque odit
-    distinctio, natus cumque quo perferendis, mollitia vero sit suscipit quia reiciendis ipsam deserunt.
-
-</h1>
