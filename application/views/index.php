@@ -75,7 +75,7 @@
 
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="300000">
+        <div class="carousel-item active" data-bs-interval="3000">
             <img id="imgcarousel" src="<?= base_url('assets/image/hero.jpg'); ?>" class="d-block w-100" alt="...">
             <div class="carousel-content d-flex">
                 <div class="tekshero content-70 d-flex align-items-start text-start flex-column">
