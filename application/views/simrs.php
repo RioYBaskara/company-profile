@@ -17,7 +17,7 @@
                             <div class="box ">
                                 <h5>50 Modul</h5>
                                 <p>Pelayanan
-                                    Non Pelayanan</p>
+                                    dan Non Pelayanan</p>
                             </div>
                             <div class="box ">
                                 <h5>Web Based</h5>
@@ -25,7 +25,7 @@
                             </div>
                             <div class="box ">
                                 <h5>Integrasi</h5>
-                                <p>Modul saling terintegrasi
+                                <p>Modul saling terintegrasi dan
                                     Integrasi pihak ketiga</p>
                             </div>
                         </div>
