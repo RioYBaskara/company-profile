@@ -345,7 +345,6 @@ nav .kontak i {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 26px;
-	width: 500px;
 	margin-top: 8px;
 	color: #666666;
 }
@@ -353,14 +352,6 @@ nav .kontak i {
 .title-konten {
 	padding-top: 12px;
 	padding-bottom: 12px;
-}
-
-.isi-konten1 {
-	height: 350px;
-}
-
-.isi-konten2 {
-	height: 350px;
 }
 
 .isi-konten1-teks {
@@ -385,10 +376,16 @@ nav .kontak i {
 /* Default styles for larger screens */
 .isi-konten1,
 .isi-konten2 {
-	height: 350px;
-	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden; /* Prevent content from overflowing */
+}
+
+.isi-konten1 {
+	margin-top: 12px;
+}
+.isi-konten2 {
+	margin-top: 32px;
 }
 
 .isi-konten1 img,
@@ -401,6 +398,16 @@ nav .kontak i {
 .isi-konten2-teks {
 	padding: 20px;
 	max-width: 50%;
+	box-sizing: border-box; /* Ensure padding is included in element width */
+}
+
+.isi-konten p {
+	padding-top: 4px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+	margin: 0; /* Remove default margin */
 }
 
 /* Responsive styles for medium screens */
@@ -414,16 +421,41 @@ nav .kontak i {
 	.isi-konten1 img,
 	.isi-konten2 img {
 		max-width: 80%; /* Make images full width */
+		height: auto;
+		margin-bottom: 8px; /* Add margin for spacing */
 	}
 
 	.isi-konten1-teks,
 	.isi-konten2-teks {
 		max-width: 80%; /* Make text full width */
+		padding: 12px; /* Add padding for spacing */
+	}
+
+	.isi-konten1-teks h5,
+	.isi-konten2-teks h5 {
+		font-size: 18px;
+	}
+
+	.isi-konten2 {
+		flex-direction: column; /* Stack content vertically */
+	}
+
+	.isi-konten2-teks {
+		order: 2; /* Ensure text is below the image */
+	}
+
+	.isi-konten2 img {
+		order: 1; /* Ensure image is above the text */
+		margin-bottom: 12px; /* Add margin for spacing */
 	}
 }
 
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
+	.title-konten {
+		padding: 18px;
+	}
+
 	.konten h1 {
 		font-size: 36px;
 		line-height: 46px;
@@ -432,12 +464,13 @@ nav .kontak i {
 	.konten p {
 		font-size: 14px;
 		line-height: 24px;
-		width: auto; /* Remove fixed width */
+		width: auto;
 	}
 
 	.isi-konten1,
 	.isi-konten2 {
 		height: auto; /* Adjust height to content */
+		margin-bottom: 18px;
 	}
 
 	.isi-konten2 {
