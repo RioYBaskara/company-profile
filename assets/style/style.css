@@ -343,7 +343,7 @@ nav .kontak i {
 
 .konten p {
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 26px;
 	margin-top: 8px;
 	color: #666666;
@@ -462,7 +462,7 @@ nav .kontak i {
 	}
 
 	.konten p {
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 24px;
 		width: auto;
 	}
@@ -484,5 +484,119 @@ nav .kontak i {
 	.isi-konten2 img {
 		order: 1; /* Ensure image is above the text */
 		max-width: 80%; /* Make images full width */
+	}
+}
+
+/* KELARRRR KOTENN */
+
+/* SIMRS */
+.simrs {
+	padding-top: 28px;
+	padding-bottom: 28px;
+}
+
+.simrs .row {
+	margin-top: 24px;
+}
+
+.simrs-judul {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.simrs-judul h2 {
+	font-size: 48px;
+	line-height: 58px;
+	font-weight: 700;
+	color: #29285e;
+	width: 100%;
+}
+
+.simrs-judul h3 {
+	font-size: 48px;
+	line-height: 58px;
+	font-weight: 300;
+	color: #666666;
+	text-align: end;
+}
+
+.simrs-judul p {
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 300;
+	color: #666666;
+	text-align: end;
+	width: 80%;
+}
+
+.simrs-konten {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.simrsk1 {
+	background-color: rgb(216, 211, 0, 0.1);
+}
+
+.simrsk1 h5 {
+	color: #00b1aa;
+	font-size: 48px;
+	line-height: 58px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.simrsk1 p {
+	color: #00b1aa;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.simrsk1 .box {
+	height: auto;
+	margin: 50px;
+}
+
+.simrs .boximg {
+	width: 60%;
+	height: auto;
+}
+
+.simrs .boximg img {
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 1200px) {
+	.simrs-judul h2 {
+		font-size: 36px;
+	}
+
+	.simrs-judul h3 {
+		font-size: 36px;
+	}
+
+	.simrs-judul p {
+		font-size: 14px;
+	}
+
+	.simrsk1 h5 {
+		font-size: 36px;
+	}
+
+	.simrsk1 p {
+		font-size: 14px;
+	}
+
+	.simrsk1 .box {
+		margin: 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	.simrs .boximg {
+		width: 30%;
 	}
 }
