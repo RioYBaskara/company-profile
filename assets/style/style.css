@@ -812,3 +812,146 @@ nav .kontak i {
 		margin-bottom: 12px;
 	}
 }
+
+/* simrsk4 selesai */
+
+/* blog */
+.blog {
+	background-color: #00b1aa;
+	padding-top: 52px;
+	padding-bottom: 52px;
+	position: relative;
+}
+
+.blog .wireframekiri {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.blog .wireframekanan {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.blog .title-konten {
+	padding: 12px;
+	margin-bottom: 32px;
+}
+
+.blog .title-konten h1 {
+	font-size: 48px;
+	line-height: 58px;
+	font-weight: 700;
+	color: white;
+}
+
+.blog .title-konten p {
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 500;
+	color: white;
+	margin-top: 12px;
+}
+
+.blog .isi-konten {
+}
+
+.blog .blogcard {
+	background-color: #8dc64e;
+	border-radius: 0; /* Menghilangkan border radius */
+}
+
+.blog .blogcard .card-body {
+	padding: 20px;
+}
+
+.blog .blogcard .card {
+	border-radius: 0; /* Menghilangkan border radius pada card */
+	border: none;
+	max-width: 200px; /* Membuat lebar kartu lebih ramping */
+	margin: auto; /* Center card dalam kolom */
+}
+
+.blog .blogcard .card img {
+	border: none;
+}
+
+.blog .blogcard h5,
+.blog .blogcard p {
+	overflow: hidden; /* Menghindari teks meluap */
+	text-overflow: ellipsis; /* Menampilkan ellipsis ketika teks meluap */
+	white-space: nowrap; /* Mencegah teks untuk membungkus ke baris berikutnya */
+}
+
+.blog .blogcard h5 {
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 600;
+	color: white;
+	margin-bottom: 0; /* Tambahkan margin-bottom jika perlu */
+}
+
+.blog .blogcard h6 {
+	margin-top: 4px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 300;
+	color: white;
+}
+
+.blog .blogcard p {
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 500;
+	color: white;
+	margin-top: auto; /* Membantu mengatur posisi p dalam card */
+}
+
+.blog .blogcard a {
+	color: white;
+	text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+}
+
+.blog .fotocard {
+	height: 180px;
+	object-fit: cover;
+}
+
+.blog .blogcard a {
+	background-color: #29285e;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 800;
+	color: #ffffff;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+
+.blog .blogcard a:hover {
+	background-color: #d8d300;
+	color: #29285e;
+}
+
+@media (max-width: 1200px) {
+	.blog .title-konten h1 {
+		font-size: 36px;
+		line-height: 46px;
+	}
+
+	.blog .title-konten p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+}
+
+@media (max-width: 768px) {
+	.blog .card {
+		max-width: 100%; /* Memastikan kartu tidak meluap pada layar kecil */
+		margin: 12px;
+	}
+}
