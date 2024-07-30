@@ -631,8 +631,6 @@ nav .kontak i {
 
 .simrsk2 .box:hover {
 	background-color: rgba(0, 177, 170, 0.3);
-	white-space: normal;
-	overflow: auto;
 }
 
 .simrsk2 .box h2 {
@@ -658,6 +656,11 @@ nav .kontak i {
 .simrs2 .box .teks {
 	margin: 8px;
 	width: 100%;
+}
+
+.simrs2 .box .teks:hover {
+	white-space: normal;
+	overflow: auto;
 }
 
 .simrs2 .box .teks p {

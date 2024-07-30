@@ -223,6 +223,19 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row justify-content-center mt-0 pt-0">
+                        <div class="col-md-3 py-0 d-flex flex-column justify-content-center align-items-center baris">
+                            <div class="box d-flex">
+                                <div class="foto d-lg-block d-none">
+                                    <img src="<?= base_url('assets/image/modul-lain.png'); ?>" alt="Modul Lainnya">
+                                </div>
+                                <div class="d-inline-block teks">
+                                    <h2>Modul Lainnya</h2>
+                                    <p>On Demo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -232,7 +245,9 @@
         <div class="col-md-2 p-0"></div>
         <div class="col-md p-0 simrs2">
             <div class="simrs-konten simrsk2">
-                
+                <div class="container-fluid">
+
+                </div>
             </div>
         </div>
         <div class="col-md-2 p-0"></div>
