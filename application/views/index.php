@@ -40,19 +40,19 @@
                                     <a class="nav-link " aria-current="page" href="#">BERANDA</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">TENTANG</a>
+                                    <a class="nav-link" href="#tentang">TENTANG</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">LAYANAN</a>
+                                    <a class="nav-link" href="#layanan">LAYANAN</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">BLOG</a>
+                                    <a class="nav-link" href="#blog">BLOG</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">KLIEN</a>
+                                    <a class="nav-link" href="#klien">KLIEN</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">KONTAK</a>
+                                    <a class="nav-link" href="#kontak">KONTAK</a>
                                 </li>
                             </ul>
 

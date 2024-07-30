@@ -1,4 +1,4 @@
-<div class="container-fluid konten">
+<div class="container-fluid konten" id="tentang">
     <div class="row">
         <div class="col-md-2 p-0"></div>
         <div class="col-md p-0">

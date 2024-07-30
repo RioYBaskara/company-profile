@@ -741,3 +741,74 @@ nav .kontak i {
 		line-height: 28px;
 	}
 }
+
+/* simrsk3 selsai */
+
+/* simrsk4 */
+
+.simrsk4 {
+	padding: 12px;
+	flex-grow: 0 !important;
+}
+
+.simrsk4 .kotak-space {
+	min-height: 100px;
+	min-width: 360px;
+}
+
+.simrsk4 .kotak {
+	min-height: 300px;
+	min-width: 360px;
+	padding: 8px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #00b1aa;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+.simrsk4 .headintegrasi {
+	background-color: rgba(0, 177, 170, 0.15);
+	padding: 20px;
+	margin-top: 10px;
+}
+
+.simrsk4 .headintegrasi h5 {
+	font-size: 32px;
+	line-height: 42px;
+	color: #00b1aa;
+	font-weight: 600;
+}
+
+.simrsk4 .headintegrasi p {
+	font-size: 20px;
+	line-height: 30px;
+	color: #00b1aa;
+	font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+	.simrsk4 .headintegrasi h5 {
+		font-size: 24px;
+		line-height: 34px;
+	}
+
+	.simrsk4 .headintegrasi p {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.simrsk4 .fotointesimrs {
+		width: 280px;
+		height: auto;
+	}
+
+	.simrsk4 .kotak {
+		min-height: 150px;
+		min-width: 180px;
+		padding: 4px;
+		margin-top: 12px;
+		margin-bottom: 12px;
+	}
+}
