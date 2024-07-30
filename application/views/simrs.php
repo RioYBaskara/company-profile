@@ -224,8 +224,8 @@
                         </div>
                     </div>
                     <div class="row justify-content-center mt-0 pt-0">
-                        <div class="col-md-3 py-0 d-flex flex-column justify-content-center align-items-center baris">
-                            <div class="box d-flex">
+                        <div class="col-md-4 py-0 d-flex flex-column justify-content-center align-items-center baris">
+                            <div class="box d-flex align-items-center">
                                 <div class="foto d-lg-block d-none">
                                     <img src="<?= base_url('assets/image/modul-lain.png'); ?>" alt="Modul Lainnya">
                                 </div>
@@ -243,10 +243,82 @@
     </div>
     <div class="row">
         <div class="col-md-2 p-0"></div>
-        <div class="col-md p-0 simrs2">
-            <div class="simrs-konten simrsk2">
+        <div class="col-md p-0 simrs3">
+            <div class="simrs-judul text-md-start d-flex justify-content-between mx-3">
+                <h2>SIMRS TECHNO MEDIC.</h2>
+                <h3>Aplikasi</h3>
+            </div>
+            <div class="simrs-konten simrsk3">
                 <div class="container-fluid">
-
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-12 py-0 aplikasi">
+                            <div class="cardapp m-3">
+                                <div class="fotoapp d-flex justify-content-center">
+                                    <img class="img-fluid" src="<?= base_url('assets/image/app1.png'); ?>" alt="">
+                                </div>
+                                <div class="headapp text-center">
+                                    <h5>
+                                        Web Profile
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="cardapp m-3">
+                                <div class="fotoapp d-flex justify-content-center">
+                                    <img class="img-fluid" src="<?= base_url('assets/image/app2daftar.png'); ?>" alt="">
+                                </div>
+                                <div class="headapp text-center">
+                                    <h5>
+                                        Web Pendaftaran
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12 py-0 aplikasi">
+                            <div class="cardapp m-3">
+                                <div class="fotoapp d-flex justify-content-center">
+                                    <img class="img-fluid" src="<?= base_url('assets/image/appmobile.png'); ?>" alt="">
+                                </div>
+                                <div class="headapp text-center">
+                                    <h5>
+                                        Mobile Pendaftaran
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="cardapp m-3">
+                                <div class="fotoapp d-flex justify-content-center">
+                                    <img class="img-fluid" src="<?= base_url('assets/image/appkiosk.png'); ?>" alt="">
+                                </div>
+                                <div class="headapp text-center">
+                                    <h5>
+                                        KIOSK Karcis
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12 py-0 aplikasi">
+                            <div class="cardapp m-3">
+                                <div class="fotoapp d-flex justify-content-center">
+                                    <img class="img-fluid" src="<?= base_url('assets/image/appcaller.png'); ?>" alt="">
+                                </div>
+                                <div class="headapp text-center">
+                                    <h5>
+                                        Caller Display
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="cardapp m-3">
+                                <div class="fotoapp d-flex justify-content-center">
+                                    <img class="img-fluid" src="<?= base_url('assets/image/appanjungan.png'); ?>"
+                                        alt="">
+                                </div>
+                                <div class="headapp text-center">
+                                    <h5>
+                                        Anjungan Mandiri
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
