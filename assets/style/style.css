@@ -1131,3 +1131,47 @@ nav .kontak i {
 		width: 100%;
 	}
 }
+
+/* SELESAI KONTAK*/
+
+/* footer */
+.footer {
+	background-color: #29285e; /* Warna latar belakang untuk footer */
+	padding: 50px !important; /* Meningkatkan padding untuk memberi lebih banyak ruang */
+	color: #ffffff; /* Warna teks di dalam footer */
+}
+
+.footer .footer-logo {
+	width: 200px; /* Meningkatkan lebar logo */
+}
+
+.footer p {
+	margin: 0;
+	font-size: 16px; /* Meningkatkan ukuran font */
+	color: #ffffff;
+}
+
+.footer p span {
+	font-weight: 700; /* Membuat teks PT. Indo Techno Medic menjadi bold */
+}
+
+.footer a {
+	color: #ffffff;
+	font-size: 20px; /* Meningkatkan ukuran font ikon media sosial */
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.footer a:hover {
+	color: #d8d300; /* Warna saat hover */
+}
+
+@media (max-width: 768px) {
+	.footer {
+		text-align: center; /* Menyelaraskan teks ke tengah pada layar kecil */
+	}
+
+	.footer .row > [class*="col-"] {
+		margin-bottom: 15px; /* Menambahkan margin bawah untuk elemen pada layar kecil */
+	}
+}
