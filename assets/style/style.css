@@ -959,3 +959,61 @@ nav .kontak i {
 /* blog selesai */
 
 /* klien */
+.klien {
+	padding: 32px 0;
+}
+
+.klien .headklien {
+	margin-bottom: 16px; /* Tambahkan jarak antara judul dan logo */
+}
+
+.klien .headklien p {
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #666666;
+	max-width: 800px;
+	margin: 0 auto; /* Center align the text */
+}
+
+.klien .klogo {
+	padding-left: 28px;
+	padding-right: 28px;
+}
+
+.klien .klogo .klienlogo {
+	margin: 8px 12px; /* Atur margin untuk memberikan ruang di sekitar logo */
+	flex-basis: 120px; /* Tentukan ukuran dasar dari setiap logo */
+	flex-grow: 1; /* Membuat logo bisa tumbuh sesuai kebutuhan */
+	text-align: center; /* Pusatkan logo */
+}
+
+.klien .klogo .klienlogo img {
+	filter: grayscale(100%);
+	transition: 0.3s;
+}
+
+.klien .klogo .klienlogo img:hover {
+	filter: grayscale(0%);
+}
+
+/* Media queries untuk responsivitas */
+@media (max-width: 768px) {
+	.klien .klogo .klienlogo {
+		flex-basis: 100px; /* Kurangi ukuran dasar logo untuk layar lebih kecil */
+	}
+}
+
+@media (max-width: 576px) {
+	.klien .klogo {
+		justify-content: space-around; /* Atur tata letak logo untuk lebih merata */
+	}
+
+	.klien .klogo .klienlogo {
+		flex-basis: 80px; /* Lebih kecilkan ukuran dasar logo untuk layar terkecil */
+	}
+}
+
+/* klien selesai */
+
+/* kontak */
