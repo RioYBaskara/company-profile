@@ -1,6 +1,6 @@
 <div class="container-fluid blog" id="blog">
-    <img src="<?= base_url('assets/image/wireframekiri.png'); ?>" alt="" class="wireframekiri">
-    <img src="<?= base_url('assets/image/wireframekanan.png'); ?>" alt="" class="wireframekanan">
+    <img src="<?= base_url('assets/image/wireframekiri.png'); ?>" alt="" class="wireframekiri img-fluid">
+    <img src="<?= base_url('assets/image/wireframekanan.png'); ?>" alt="" class="wireframekanan img-fluid">
     <div class="row">
         <div class="col-md-2 p-0"></div>
         <div class="col-md-8 p-0">
@@ -20,7 +20,7 @@
                         <img src="<?= base_url('assets/image/blog1.png'); ?>" class="card-img-top fotocard rounded-0"
                             alt="">
                         <div class="card-body">
-                            <h5 class="card-title">Judul</h5>
+                            <h5 class="card-title">Integrasi SATUSEHAT Oleh PT.Indo Techno Medic</h5>
                             <h6 class="card-subtitle">26 April 2006</h6>
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
                                 necessitatibus...</p>
@@ -50,7 +50,7 @@
                         <img src="<?= base_url('assets/image/blog3.png'); ?>" class="card-img-top fotocard rounded-0"
                             alt="">
                         <div class="card-body">
-                            <h5 class="card-title">Judul</h5>
+                            <h5 class="card-title">Integrasi SATUSEHAT Oleh PT.Indo Techno Medic</h5>
                             <h6 class="card-subtitle">26 April 2006</h6>
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
                                 necessitatibus...</p>

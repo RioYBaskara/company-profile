@@ -753,12 +753,12 @@ nav .kontak i {
 
 .simrsk4 .kotak-space {
 	min-height: 100px;
-	min-width: 360px;
+	min-width: 300px;
 }
 
 .simrsk4 .kotak {
-	min-height: 300px;
-	min-width: 360px;
+	min-height: 100px;
+	min-width: 160px;
 	padding: 8px;
 	border-width: 1px;
 	border-style: solid;
@@ -955,3 +955,7 @@ nav .kontak i {
 		margin: 12px;
 	}
 }
+
+/* blog selesai */
+
+/* klien */

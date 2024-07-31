@@ -326,7 +326,7 @@
     </div>
     <div class="row">
         <div class="col-md-2 p-0"></div>
-        <div class="col-md p-0 simrs4 ">
+        <div class="col-md p-0 simrs4">
             <div class="simrs-judul text-md-start d-flex justify-content-between mx-3">
                 <h2>SIMRS TECHNO MEDIC.</h2>
                 <h3>integrasi</h3>
