@@ -1017,3 +1017,117 @@ nav .kontak i {
 /* klien selesai */
 
 /* kontak */
+.contact {
+	background-color: #f8f9fa; /* Warna latar belakang untuk bagian kontak */
+	padding: 40px 0;
+}
+
+.boxkontak {
+	background-color: #ffffff; /* Warna latar belakang untuk box kontak */
+}
+
+.boxkontak .row {
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.contact .informasi {
+	background-color: #00b1aa;
+}
+
+.contact .informasi h2 {
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.contact .informasi p {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+.contact .formkontak h2 {
+	color: #000;
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 700;
+}
+
+.contact .formkontak p {
+	color: #000;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+}
+
+.map iframe {
+	width: 100%;
+	height: 50%;
+	border: none;
+}
+
+.formkontak .form-group {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 15px;
+}
+
+.formkontak .form-group input[type="text"],
+.formkontak .form-group input[type="email"] {
+	width: calc(50% - 5px);
+}
+
+.formkontak .form-group textarea {
+	width: 100%;
+	resize: none; /* Mencegah ukuran textarea diubah */
+}
+
+.formkontak .form-group input,
+.formkontak .form-group textarea {
+	border-radius: 4px;
+	/*Borderradiusuntukinputdantextarea*/
+	border: 1px solid #ccc;
+	/*Borderuntukinputdantextarea*/
+	padding: 10px;
+	font-size: 16px;
+	color: #333;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
+.contact .formkontak .form-control {
+	background-color: rgba(0, 177, 170, 0.3);
+}
+
+.formkontak button {
+	background-color: rgba(0, 177, 170);
+	color: #ffffff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 18px;
+	font-weight: 700;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.formkontak button:hover {
+	background-color: #29285e;
+	color: #ffffff;
+}
+
+@media (max-width: 768px) {
+	.formkontak .form-group {
+		flex-direction: column;
+	}
+
+	.formkontak .form-group input[type="text"],
+	.formkontak .form-group input[type="email"] {
+		width: 100%;
+	}
+}

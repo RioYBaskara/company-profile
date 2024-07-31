@@ -12,6 +12,7 @@ class Home extends CI_Controller
         $this->load->view('simrs');
         $this->load->view('blog');
         $this->load->view('klien');
+        $this->load->view('kontak');
         $this->load->view('templates/footer', $data);
     }
 }
